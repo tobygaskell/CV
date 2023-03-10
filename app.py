@@ -10,7 +10,7 @@ st.markdown('---')
 
 st.subheader('Profile 👨')
 
-st.code('''I am confident, dependable and motivated - as well as eager to 
+st.info('''I am confident, dependable and motivated - as well as eager to 
 be in an environment where I am able to learn from others and contribute 
 ideas. 
 
@@ -36,7 +36,7 @@ if company_choice == 'Security Data Engineer (Schroders)':
     project_choice = st.radio('Project', ['Risk Metrics', 'Cloud Migration', 'Cloud Data Quality Monitoring', 'ML Phishing Prediction Model', 'Data Insights'], label_visibility = 'collapsed')
 
     if project_choice == 'Risk Metrics':
-        st.code('''Lead engineer on building two end to end security metrics solutions. 
+        st.info('''Lead engineer on building two end to end security metrics solutions. 
 One mapping on to the industry leading MITRE ATT&CK framework and the other 
 used to monitor the companies risk position. 
 
@@ -53,7 +53,7 @@ This automated solution has reduced the BAU work for our team dramtically
 as well as driving forward the quality of risk insights we generate.''') 
 
     if project_choice == 'Cloud Migration':
-        st.code('''Part of the team responsible for pioneering the migration of the security 
+        st.info('''Part of the team responsible for pioneering the migration of the security 
 data strategy from the on prem solution to the cloud. Which was the first of 
 it's kind within Schroders.
 
@@ -69,7 +69,7 @@ of different cloud platforms - including Snowflake, AWS, Streamlit, Azure and
 Team City.''') 
 
     if project_choice == 'Cloud Data Quality Monitoring':
-        st.code('''Lead Engineer on building from the ground up a data quality monitoring solution 
+        st.info('''Lead Engineer on building from the ground up a data quality monitoring solution 
 for our cloud data. 
 
 This work consisted of building a scalable solution which implemented a number of 
@@ -81,7 +81,7 @@ ingestion for each unique dataset was something i am especially proud of.
 ''') 
 
     if project_choice == 'ML Phishing Prediction Model':
-        st.code('''Built and deployed a predictive model which used a regression machine learning 
+        st.info('''Built and deployed a predictive model which used a regression machine learning 
 algorithm, to identify the likelihood of a reported emails being a phishing 
 email. 
 
@@ -92,7 +92,7 @@ Once deployed this was used to prioritise security incidents based on our
 prediction - saving our SOC over 4 hours a week''')
 
     if project_choice == 'Data Insights':
-        st.code('''Generating data dashboards for use across the wider team is bread and butter 
+        st.info('''Generating data dashboards for use across the wider team is bread and butter 
 in this role. During my time I have lost count at the number I have built. 
 
 Some of the most useful however have included dashboards generating insights
@@ -104,7 +104,7 @@ multiple teams operationally to ensure we have adequate estate coverage. ''')
 
 if company_choice == 'Trainee (Kubrick)': 
     
-    st.code('''Trained for 4 months where I was taught and assessed on technologies such as 
+    st.info('''Trained for 4 months where I was taught and assessed on technologies such as 
 SQL, Python, ML, Tableau and Big Data. 
 
 This programme gave me the skills and technical understanding needed to quickly 
@@ -114,7 +114,7 @@ become an excellent data engineer.''')
 if company_choice == 'Bike Mechanic (Never Mind the Bike Shops)': 
 
 
-    st.code('''Self taught bike mechanic responsible for mending bikes as well
+    st.info('''Self taught bike mechanic responsible for mending bikes as well
 as engaging with customers and suppliers.
 
 Created and maintained a system for stock control of more than 4,000 products, 
@@ -168,7 +168,7 @@ for subject, result in results.items():
     with right: 
         st.write(result)
 if bio: 
-    st.code(bio)
+    st.info(bio)
 
 
 
