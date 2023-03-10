@@ -192,4 +192,22 @@ with st.expander('See list of skills'):
         tech_skills
     with right: 
         st.write('Soft')
-        soft_skills
+        
+st.markdown('---')
+
+st.subheader('Personal 🏈')
+
+st.info('''In 2014 I was the youngest player in Nat 2 at the age of 17. 
+
+I also played at academy level for Leicester Tigers and represented numerous 
+club and county sides including my university 1st team and Cheshire (Captain).
+''')
+
+st.markdown('---')
+
+with open('toby_cv_20220515.pdf', 'rb') as pdf_file:
+    PDFbyte = pdf_file.read() 
+
+st.download_button('Keep My Info', data = PDFbyte, file_name = 'TobyGaskellCV.pdf')
+
+
