@@ -192,6 +192,7 @@ with st.expander('See list of skills'):
         tech_skills
     with right: 
         st.write('Soft')
+        soft_skills
         
 st.markdown('---')
 
