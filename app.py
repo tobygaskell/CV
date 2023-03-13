@@ -5,6 +5,7 @@ st.title("Hi I'm Toby Gaskell 👋")
 st.write('📧 - Toby96@sky.com')
 st.write('📞 - 07908 016 447')
 st.write('🏠 - London')
+st.write('🔗 - https://www.linkedin.com/in/toby-gaskell-515491184/')
 
 st.markdown('---')
 
